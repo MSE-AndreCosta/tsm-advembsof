@@ -17,6 +17,7 @@ void blink()
 
 	while (true) {
 		led = !led;
+		LOG_DBG("Blink!");
 		zpp_lib::ThisThread::sleep_for(blinkInterval);
 	}
 }
