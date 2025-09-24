@@ -19,6 +19,7 @@ manifest:
           - cmsis_6
           - hal_nordic 
           - segger
+          - lvgl
     - name: zpp_lib
       url: https://github.com/AdvEmbSof/zpp_lib.git
       revision: main
